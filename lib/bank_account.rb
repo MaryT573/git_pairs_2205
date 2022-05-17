@@ -18,6 +18,7 @@ class BankAccount
   end
 
   def verify?(id, pin)
-
+@id == id
+@pin == pin
   end
 end
